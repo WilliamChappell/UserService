@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Database\\": "Database/",
+            "Helpers\\": "Helpers/",
+            "Seeds\\": "Seeds/",
+            "Services\\": "Services/",
+            "Models\\": "Models/",
+            "Tests\\": "Tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
